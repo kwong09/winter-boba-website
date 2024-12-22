@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: #a8caff;
+}
+
+h1, p, form {
+    font-family: 'Arial';
+}
+
+a {
+    color: #3b66ab;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#tiltleft {
+    transform: rotate(-3deg);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#tiltright {
+    transform: rotate(3deg);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.title {
+    background-color: white;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+
+    color: rgb(43, 43, 112);
+}
+
+p {
+    font-family: 'Arial';
+}
+
+.flexbox-item {
+    width: 200px;
+    padding: 20px;
+}
+
+#footer {
+    height: 20px;
+    background-color: white;
+    position: sticky;
+    margin: auto;
+    width: 300px;
+    border-radius: 10px;
+    bottom: 0;
+
+    box-shadow: 0px 0px 10px 0px rgba(121, 121, 121, 0.5);
+}
