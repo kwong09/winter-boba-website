@@ -6,6 +6,9 @@ body {
 h1, p, form {
     font-family: 'Arial';
 }
+form {
+    line-height: 50px;
+}
 
 a {
     color: #3b66ab;
@@ -42,17 +45,42 @@ p {
 
 .flexbox-item {
     width: 200px;
-    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 #footer {
-    height: 20px;
+    height: 40px;
     background-color: white;
     position: sticky;
     margin: auto;
     width: 300px;
     border-radius: 10px;
     bottom: 0;
+    line-height: 40px;
 
     box-shadow: 0px 0px 10px 0px rgba(121, 121, 121, 0.5);
+}
+
+.flexbox-item:hover {
+    border: 5px solid white;
+}
+
+.wishlist {
+    background-color: #cadeff;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    width: 40%;
+    margin: auto;
+    min-width: 400px;
+
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    width: 3em;
+    height: 1.25rem;
+    accent-color: rgb(43, 43, 112);
+
+    vertical-align: middle;
 }
